@@ -1,7 +1,7 @@
 import subprocess
 
 pauseBridgeCallPath = "./pause.sh"
-winePrefix = "/home/anson/wine/netease-cloud-music/"
+winePrefix = "" # should be modified to your wine prefix
 pauseCommand = ["bash", pauseBridgeCallPath, winePrefix]
 
 def pausePlayer():
