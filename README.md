@@ -1,13 +1,23 @@
 # pauseBridge
 
-simulate the keyboard input to pause the audio
+## Purpose
 
-key simulating process is based on [aardio](http://aardio.com) 
+Control the music applications running in wine environment
 
-the key shortcuts config should be in `key.json`
+## Description
+
+Simulate the keyboard input to pause the audio
+
+Key simulating process, based on [aardio](http://aardio.com) 
+
+The config of the key shortcuts is in `key.json`
 
 ## Usage
 
-```python
-./host.py
+```bash
+python3 ./host.py
 ```
+
+## Todo
+
+- Integrate with mpris
